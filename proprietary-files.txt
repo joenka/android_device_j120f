@@ -1,0 +1,90 @@
+# General
+lib/libion_exynos.so
+lib/libexynosutils.so
+# Needed by libexynosfimc.so
+lib/libexynosv4l2.so
+#lib/libMcClient.so
+
+# Bluetooth
+vendor/firmware/bcm43438A1_V0036.0112.hcd
+
+# Camera
+lib/hw/camera.exynos3.so
+# Needed by "camera.exynos3.so"
+lib/libhwjpeg.so
+lib/libexynoscameraexternal.so
+
+# DRM
+etc/srm.bin
+lib/libdrmdecrypt.so
+lib/libhdcp2.so
+lib/libstagefright_hdcp.so
+lib/libwvm.so
+
+# GPS
+bin/gps.cer
+bin/gpsd
+etc/gps.conf
+etc/gps.xml
+lib/hw/gps.default.so
+lib/libwrappergps.so
+
+# Graphics
+lib/egl/libGLES_android.so
+vendor/lib/egl/libGLES_mali.so
+
+#lib/libcsc.so
+
+# HWC
+lib/hw/hwcomposer.exynos3.so
+lib/hw/gralloc.exynos3.so
+# Needed by hwcomposer.exynos3.so
+lib/libdisplay.so
+lib/libdisplaymodule.so
+lib/libExynosHWCService.so
+lib/libhdmimodule.so
+lib/libhdmi.so
+lib/libhwcutils.so
+# Needed by libhwcutils.so
+lib/libmpp.so
+# Needed by libdisplay.so
+lib/libhwcutilsmodule.so
+# Needed by libExynosHWCService.so
+
+# Keystore
+lib/hw/keystore.exynos3475.so
+
+# Media
+vendor/firmware/es305_fw.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/es305_fw_bypass.bin
+
+#Mobicore
+lib/libgdmcprov.so
+lib/libMcClient.so
+lib/libMcRegistry.so
+
+# OMX
+lib/libstagefrighthw.so
+
+# Radio
+etc/plmn_delta.bin
+etc/plmn_se13.bin
+lib/libatparser.so
+lib/libfactoryutil.so
+lib/libomission_avoidance.so
+lib/libsec-ril.so
+# Needed by libsec-ril.so
+lib/libsecnativefeature.so
+
+# Sensors
+lib/hw/sensors.universal3475.so
+
+# Wifi
+etc/wifi/bcmdhd_apsta.bin
+etc/wifi/bcmdhd_sta.bin
+etc/wifi/nvram_net.txt
+
+# Audio
+lib/hw/audio.primary.universal3475.so
+lib/libaudio-ril.so

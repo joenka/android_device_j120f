@@ -6,9 +6,23 @@ LOCAL_PATH := device/samsung/j120f
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+
+LOCAL_PATH := device/samsung/j120f
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
+else
+	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel \
+    $(LOCAL_PATH)/init.recovery.universal3475.rc:root/init.recovery.samsungexynos7420.rc \
+    $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/recovery.fstab
+
+
 # Device uses high-density artwork where available
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
+PRODUCT_AAPT_CONFIG := ldpi mdpi hdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 800

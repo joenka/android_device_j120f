@@ -1,9 +1,0 @@
-#
-# system.prop for j120f
-#
-
-ro.sf.lcd_density=240
-persist.hdmi.hdcp_enabled=1
-rild.libpath=/system/lib/libsec-ril.so
-rild.libargs=-d /dev/umts_ipc0
-

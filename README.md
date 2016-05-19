@@ -1,4 +1,4 @@
-# CM Device Tree for Samsung Galaxy J2 (J200G)
+# CM Device Tree for Samsung Galaxy J1 (J120F)
 
 Please note :
 

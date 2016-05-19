@@ -1,2 +1,0 @@
-add_lunch_combo cm_j120f-eng
-add_lunch_combo cm_j120f-userdebug

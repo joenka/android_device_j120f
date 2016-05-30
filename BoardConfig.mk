@@ -22,7 +22,7 @@ TARGET_CPU_VARIANT := cortex-a7
 # Platform
 
 TARGET_BOARD_PLATFORM := exyno3
-TARGET_BOARD_PLATFORM_GPU := mali-t760mp8
+TARGET_BOARD_PLATFORM_GPU := mali-t720
 
 # Flags
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp

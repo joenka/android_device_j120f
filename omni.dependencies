@@ -1,8 +1,0 @@
-[
-  {
-    "remote": "github",
-    "repository": "joenka/android_device_j120f",
-    "target_path": "device/samsung/j120f",
-    "revision": "cm-12.1"
-  } 
-]

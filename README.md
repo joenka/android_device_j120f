@@ -1,4 +1,6 @@
-# TWRP Device Tree for Samsung Galaxy J1 (J120F)
+Under construction
+
+# Device Tree for Samsung Galaxy J1 (J120F)
 
 I used:
 
@@ -8,8 +10,8 @@ openjdk-7-jdk
 
 ------
 
-used repo: repo init -u git://github.com/omnirom/android.git -b android-5.1
+used repo: repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
 
-TWRP resource: https://github.com/omnirom/android_bootable_recovery   ---- branch android 6.0 !!!
+
 
 

@@ -1,4 +1,6 @@
-Under construction
+CyanogenMod 
+
+Under construction!!
 
 # Device Tree for Samsung Galaxy J1 (J120F)
 
